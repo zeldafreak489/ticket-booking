@@ -1,0 +1,77 @@
+.events-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between cards */
+  flex-wrap: wrap; /* Allows wrapping to new rows if necessary */
+  gap: 16px; /* Space between cards */
+  padding: 20px; /* Optional padding around the container */
+}
+
+.event-card {
+  width: 280px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.sort-buttons {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.sort-buttons button {
+  background-color: #0057ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.sort-buttons button:hover {
+  background-color: #0041cc;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.search-sort {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.search-sort input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.search-sort button {
+  background-color: #0057ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-sort button:hover {
+  background-color: #0041cc;
+}
+
+.search-title {
+  font-family: sans-serif;
+}

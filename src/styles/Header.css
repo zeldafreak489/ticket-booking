@@ -1,0 +1,67 @@
+/* Set the primary blue color */
+:root {
+  --primary-blue: #0057ff;
+}
+
+.header {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.header-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+/* Navbar styles */
+.navbar {
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ffdd57;
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 4px;
+}
