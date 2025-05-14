@@ -1,12 +1,7 @@
-# React + Vite
+# BookTix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website, BookTix, allows the user to browse events and book tickets for these events. It includes a homepage with events listed that are able to be sorted by price or searched through by title. It includes login and log out functionality, a profile page that displays the user's bookings, an event details page, and a cart page.
 
-Currently, two official plugins are available:
+## Running the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project, please clone the repository, install all node modules needed, and then run the project using "npm run dev" in the terminal window. Then visit the localhost link.
